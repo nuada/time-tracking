@@ -1,8 +1,11 @@
 # Time tracking
 
+Create time tracing report from Google Calendar using [Secret Address](https://support.google.com/calendar/answer/37648?hl=en).
+
 ## Usage
 
 ```
+echo "http://your.secret.url..." > .secret
 python3 report.py [month_offset]
 ```
 
